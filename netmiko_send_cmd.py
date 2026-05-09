@@ -11,7 +11,7 @@ dispositivo = {
 connessione = ConnectHandler(**dispositivo)
 print("Connesso!")
 
-output = connessione.send_command("dh -f")
+output = connessione.send_command("")
 print(output)
 
 connessione.disconnect()
