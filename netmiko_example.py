@@ -1,11 +1,11 @@
 from netmiko import ConnectHandler
 
 dispositivo = {
-    "device_type": "linux",
+    "device_type": "",
     "host": "",
     "username": "",
     "password": "",
-    "port": 22,
+    "port": ,
 }
 
 connessione = ConnectHandler(**dispositivo)
