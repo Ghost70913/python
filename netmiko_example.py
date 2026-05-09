@@ -2,9 +2,9 @@ from netmiko import ConnectHandler
 
 dispositivo = {
     "device_type": "linux",
-    "host": "100.108.119.72",
-    "username": "ghostadmin",
-    "password": "Bbbabyface1987|!",
+    "host": "",
+    "username": "",
+    "password": "",
     "port": 22,
 }
 
